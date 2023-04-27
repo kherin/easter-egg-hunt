@@ -1,0 +1,9 @@
+{
+  "short_name": "An App that lies",
+  "name": "clue9",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
