@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 // components
 import SplitFlap from "../SplitFlap/SplitFlap";
@@ -13,9 +13,9 @@ export default function Grid() {
 
   const cells = [];
 
-  for (let i = 0; i < 15; i++) {
-    for (let j = 0; j < 20; j++) {
-      cells.push(<SplitFlap key={`${i}-${j}`} />);
+  for (let rowIndex = 0; rowIndex < 15; rowIndex++) {
+    for (let columnIndex = 0; columnIndex < 20; columnIndex++) {
+      cells.push(<SplitFlap key={`${rowIndex}-${columnIndex}`} />);
     }
   }
 
