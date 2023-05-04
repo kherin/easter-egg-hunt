@@ -87,8 +87,11 @@ function App() {
         onClick={() => onSetClickCount(clickCount + 1)}
       >
         Find me if you can
-        <span style={{ color: "white" }} hidden={clickCount != hintsCount}>
-          {" " + hintsResult}
+        <span
+          style={{ color: "white", paddingLeft: "5px" }}
+          hidden={clickCount != hintsCount}
+        >
+          {hintsResult}
         </span>
       </div>
     </>
